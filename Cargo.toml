@@ -1,0 +1,10 @@
+[package]
+name = "vmtouch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2.175"
+madvise = "0.1.0"
+memmap2 = "0.9.8"
+page_size = "0.6.0"
